@@ -19,3 +19,28 @@ body {
 .card-shadow{
   box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.38);
 }
+
+.entering-card{
+  background: rgb(173,234,255);
+  background: linear-gradient(81deg, rgba(173,234,255,1) 0%, rgba(113,199,229,1) 100%);
+  box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.39);
+}
+
+.close-to-enter-card{
+  background: rgb(226,192,255);
+  background: linear-gradient(60deg, rgba(226,192,255,1) 0%, rgba(203,145,253,1) 100%);
+  box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.39);
+}
+
+.not-enter-card{
+  background: rgb(193,150,255);
+  background: linear-gradient(60deg, rgba(193,150,255,1) 0%, rgba(145,80,239,1) 100%);
+  box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.39);
+}
+
+
+.last-trade-card{
+  background: rgb(145,80,239);
+  background: linear-gradient(10deg, rgba(145,80,239,1) 0%, rgba(113,199,229,1) 100%);
+  box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.39);
+}
