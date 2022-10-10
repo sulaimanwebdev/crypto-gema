@@ -76,7 +76,7 @@ const Trades = () => {
           <FirstCard enteringColor={enteringColor} closeTo={closeTo} out={out}/>
          </div>
 
-         <div className="max-w-[1200px] mx-auto mt-12 px-5 grid grid-cols-1 lg:grid-cols-3 gap-[30px] xl:gap-[60px] mb-16 md:mb-36">
+         <div className="max-w-[1250px] mx-auto mt-24 px-5 grid grid-cols-1 lg:grid-cols-3 gap-[30px] xl:gap-[60px] mb-16 md:mb-36">
           <Entering data={data}/>
           <CloseToEnter data={data}/>
           <NotEnter data={data}/>
