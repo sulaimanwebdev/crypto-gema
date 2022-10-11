@@ -19,12 +19,14 @@ const Trades = () => {
       symbol: "ETHUSDT",
       entryPoint: "1.4345",
       timeStamp: "10/12/2021 14:05",
+      type: "Buy"
     },
 
     {
       symbol: "BTCUSDT",
       entryPoint: "1.4345",
       timeStamp: "12/1/2021 14:05",
+      type: "Buy"
 
     },
 
@@ -32,18 +34,21 @@ const Trades = () => {
       symbol: "XRPUSDT",
       entryPoint: "1.4345",
       timeStamp: "6/15/2021 14:05",
+      type: "Buy"
 
     },
     {
       symbol: "ETHUSDT",
       entryPoint: "1.4345",
       timeStamp: "10/12/2021 14:05",
+      type: "Buy"
     },
 
     {
       symbol: "BTCUSDT",
       entryPoint: "1.4345",
       timeStamp: "12/1/2021 14:05",
+      type: "Buy"
 
     },
 
@@ -51,6 +56,7 @@ const Trades = () => {
       symbol: "XRPUSDT",
       entryPoint: "1.4345",
       timeStamp: "6/15/2021 14:05",
+      type: "Buy"
 
     },
 
@@ -58,6 +64,7 @@ const Trades = () => {
       symbol: "BTCUSDT",
       entryPoint: "1.4345",
       timeStamp: "12/1/2021 14:05",
+      type: "Buy"
 
     },
 
