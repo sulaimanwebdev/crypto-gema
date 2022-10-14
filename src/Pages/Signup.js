@@ -49,7 +49,7 @@ const Signup = () => {
             
             <div className="flex items-center mt-7 gap-2"><input type="checkbox" className='h-4 w-4 cursor-pointer' name="checkbox" id="checkbox" /> <label htmlFor='checkbox' className='text-[#505458] cursor-pointer block w-fit'>Did you forget your password?</label></div>
       
-           <div className="flex justify-end mt-5"><button className='button-shadow font-[700] bg-white text-[17px] py-2 px-7 text-[#3E3E3E]'>REGISTER</button></div>
+           <div className="flex justify-end mt-5"><button className='button-shadow font-[700] bg-white text-[17px] py-3.5 px-8 text-[#3E3E3E]'>REGISTER</button></div>
            </form>
     
          </div>

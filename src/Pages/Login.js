@@ -29,7 +29,7 @@ const Login = () => {
 
             <a href="/#" className='text-[#505458] block w-fit mt-4'>Did you forget your password?</a>
       
-           <div className="flex justify-end mt-5"><button className='button-shadow font-[700] bg-white text-[17px] py-2 px-7 text-[#3E3E3E]'>Login</button></div>
+           <div className="flex justify-end mt-5"><button className='button-shadow font-[700] bg-white text-[17px] py-3.5 px-8 text-[#3E3E3E]'>Login</button></div>
            </form>
     
          </div>

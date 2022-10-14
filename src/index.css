@@ -8,16 +8,23 @@ body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 .button-shadow{
   box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.48);
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .card-shadow{
   box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.38);
+}
+
+.pricing-card{
+  box-shadow: 0px 4px 92px -19px rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .entering-card{
@@ -47,4 +54,8 @@ body {
 
 .footer{
   box-shadow: 0px 0px 70px 10px rgba(0, 0, 0, 0.171);
+}
+
+.circle-bg{
+  background: linear-gradient(353.17deg, #FB3DFF -8.3%, #9FCCEC 78.67%);
 }
