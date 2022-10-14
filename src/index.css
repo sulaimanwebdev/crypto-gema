@@ -59,3 +59,14 @@ body {
 .circle-bg{
   background: linear-gradient(353.17deg, #FB3DFF -8.3%, #9FCCEC 78.67%);
 }
+
+@media (max-width: 586px){
+
+  .blackOverlay{
+   background-color: rgba(0, 0, 0, 0.808);
+   padding-bottom: 30px;
+   top: 0px;
+   padding-top: 120px;
+}
+
+}
