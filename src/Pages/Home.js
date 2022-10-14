@@ -83,7 +83,16 @@ const Home = () => {
 
        </div>
 
-      <img src="/images/circle.png" className='absolute top-[300px] -right-[500px] w-[800px]' alt="circle" />
+      <img src="/images/circle.png" className='absolute top-[200px] -right-[500px] w-[800px]' alt="circle" />
+          
+      </div>
+
+
+      <div className="gap-10 relative mx-auto max-w-[1000px] mt-24">
+      <div className='font-[800] text-5xl text-[#535353] mb-12 leading-tight'>Como usar</div>
+      <div className="bg-white mb-10 shadow-xl rounded-2xl w-full overflow-hidden"><video src="/images/video.mp4" className='w-full  object-contain' controls controlsList='nodownload'></video></div>
+      <Link to="/signup" className='mx-auto mt-20 flex items-center justify-center w-full text-[#535353] button-shadow font-[700] bg-white text-[25px] py-4 px-7'>SIGN UP</Link>
+      
       </div>
 
       </div>
