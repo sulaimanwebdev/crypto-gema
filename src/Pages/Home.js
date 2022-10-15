@@ -32,7 +32,7 @@ const Home = () => {
 
 
 
-      <div className="mx-auto max-w-[1000px] mt-[200px] sm6:mt-[170px] sm5:mt-[140px] sm4:mt-20 px-5 w-full">
+      <div className="mx-auto max-w-[1000px] mt-[320px] sm9:mt-[250px] sm8:mt-[200px] sm7:mt-[150px] sm4:mt-[100px] md:mt-[200px] px-5 w-full">
        
        <div className='font-[800] text-3xl sm:text-4xl text-[#535353] mb-3.5 leading-tight text-center'>Probot Club helps traders win regardless of market conditions</div>
        <div className='font-[400] text-base text-[#535353] text-center'>For every market condition, there's a trading streategy that can profit from it. Probot Club bots, happen to be really good at reducing average acquistion costs, directly increasing your profit margins from each trade.</div>
@@ -84,8 +84,8 @@ const Home = () => {
 
        </div>
 
-      <img src="/images/circle.png" className='absolute top-[300px] md:top-[200px] -right-[300px] md:-right-[500px] w-[800px]' alt="circle" />
-          
+      {/* <img src="/images/circle.png" className='absolute top-[300px] md:top-[200px] -right-[300px] md:-right-[500px] w-[800px]' alt="circle" /> */}
+          {/* <div className="circle bg-[#FB3DFF] w-[400px] h-[800px] absolute top-[200px] -right-6 lg:-right-[300px]"></div> */}
       </div>
 
 
