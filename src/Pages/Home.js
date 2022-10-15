@@ -84,7 +84,7 @@ const Home = () => {
 
        </div>
 
-      {/* <img src="/images/circle.png" className='absolute top-[300px] md:top-[200px] -right-[300px] md:-right-[500px] w-[800px]' alt="circle" /> */}
+      <img src="/images/circle.png" className='absolute top-[300px] md:top-[200px] -right-[300px] md:-right-[500px] w-[800px]' alt="circle" />
           {/* <div className="circle bg-[#FB3DFF] w-[400px] h-[800px] absolute top-[200px] -right-6 lg:-right-[300px]"></div> */}
       </div>
 
