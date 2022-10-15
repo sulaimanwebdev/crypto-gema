@@ -13,8 +13,26 @@ const Home = () => {
      <Header/>
 
       <div className="w-full">
-      <video src="/images/video.mp4" className='w-full object-contain' autoPlay muted loop></video>
-      <div className="blackOverlay mx-auto max-w-[1000px] px-5 absolute top-[100px] sm:top-[120px] sm3:top-[150px] lg2:top-[300px] text-white left-1/2 -translate-x-1/2 w-full">
+      <video src="/images/video.mp4" className='hidden md:block w-full object-contain' autoPlay muted loop></video>
+      <img src="/images/bg.png" alt="background" className='block md:hidden absolute top-0 left-0 w-full h-[450px] object-cover' />
+      <div className="blackOverlay hidden md:block mx-auto max-w-[1000px] px-5 absolute top-[100px] sm:top-[120px] sm3:top-[150px] lg2:top-[300px] text-white left-1/2 -translate-x-1/2 w-full">
+      <div>
+        <h1 className='font-[800] text-3xl md:text-5xl leading-tight'>
+        Welcome<br/>
+        to the best<br/>
+        Trading Bot Platform
+      </h1>
+      <div className="flex flex-wrap gap-7 mt-7">
+      <Link to='/signup' className='button-shadow font-[700] bg-white text-[17x] py-3 w-[120px] sm:w-[150px] flex items-center justify-center text-[#3E3E3E]'>SIGNUP</Link>
+      <Link to='/' className='button-shadow font-[700] bg-transparent border-2 border-white text-[17x] py-3 w-[120px] sm:w-[150px] flex items-center justify-center text-white'>ABOUT US</Link>
+
+      </div>
+      </div>
+        
+      </div>
+
+
+      <div className="flex  justify-center flex-col md:hidden relative z-20 mx-auto h-[550px] max-w-[1000px] px-5 text-white w-full">
       <div>
         <h1 className='font-[800] text-3xl md:text-5xl leading-tight'>
         Welcome<br/>
@@ -32,7 +50,7 @@ const Home = () => {
 
 
 
-      <div className="mx-auto max-w-[1000px] mt-[320px] sm9:mt-[250px] sm8:mt-[200px] sm7:mt-[150px] sm4:mt-[100px] md:mt-[200px] px-5 w-full">
+      <div className="mx-auto max-w-[1000px] md:mt-[100px] px-5 w-full">
        
        <div className='font-[800] text-3xl sm:text-4xl text-[#535353] mb-3.5 leading-tight text-center'>Probot Club helps traders win regardless of market conditions</div>
        <div className='font-[400] text-base text-[#535353] text-center'>For every market condition, there's a trading streategy that can profit from it. Probot Club bots, happen to be really good at reducing average acquistion costs, directly increasing your profit margins from each trade.</div>
